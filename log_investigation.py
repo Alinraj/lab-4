@@ -10,7 +10,7 @@ Parameters:
 """
 import log_analysis_lib
 
-# Get the log file path from the command line
+# Get thwe log file path from the command line
 # Because this is outside of any function, log_path is a global variable
 log_path = log_analysis_lib.get_file_path_from_cmd_line()
 
